@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <nullable>enable</nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BinarySearch\BinarySearch.csproj" />
+    <ProjectReference Include="..\Collections\Collections.csproj" />
+    <ProjectReference Include="..\Fibonacci\Fibonacci.csproj" />
+  </ItemGroup>
+
+</Project>
